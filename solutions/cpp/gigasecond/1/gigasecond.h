@@ -1,0 +1,12 @@
+#if !defined(GIGASECOND_H)
+#define GIGASECOND_H
+
+#include "boost/date_time.hpp"
+
+namespace gigasecond {
+
+    boost::posix_time::ptime advance(boost::posix_time::ptime ptime);
+
+}  // namespace gigasecond
+
+#endif // GIGASECOND_H
